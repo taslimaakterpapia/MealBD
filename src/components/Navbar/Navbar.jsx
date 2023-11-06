@@ -1,13 +1,15 @@
 import './Navbar.css';
+import mealbd from "../../assets/mealbd.png" ;
 
 const Navbar = () => {
     return (
         <div className='nav'>
-            <h1 className="name-icon">Meal<span>BD</span> </h1>
+            <img className='icon' src={mealbd} alt="" />
             <div className='nav-link'>
                 <a href="">Home</a>
                 <a href="">Menu</a>
                 <a href="">Service</a>
+                <a href="">Contact</a>
             </div>
         </div>
     );
