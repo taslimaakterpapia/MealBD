@@ -1,0 +1,25 @@
+.nav{
+    background-color: burlywood;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.name-icon{
+    color: rgb(121, 21, 10);
+}
+
+.name-icon span{
+color: rgb(1, 36, 1);
+}
+
+.nav-link a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(121, 21, 10);
+    font-size: 18px;
+    
+}
