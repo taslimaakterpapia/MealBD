@@ -1,9 +1,9 @@
-
-
+import banner from "../../assets/banner.png";
+import './Home.css';
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+            <img className="banner" src={banner} alt="" />
         </div>
     );
 };
